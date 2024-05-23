@@ -1,3 +1,2 @@
-# mvemily.github.io
-
-Campaign website, where we check whether the theme is correctly set up.
+This file will eventually contain instructions about how to
+modify and deploy Emily's campaign website.
