@@ -1,2 +1,3 @@
 # mvemily.github.io
-Campaign website
+
+Campaign website, where we check whether the theme is correctly set up.
