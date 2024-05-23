@@ -1,6 +1,6 @@
-title: Emily for Mountain View
+title: Emily's site
 description: >- # this means to break the line, but not a new paragraph
-  Re-Elect Emily Ramos to Mountain View City Council
+  placeholder
 baseurl: "" # the subpath of your site, e.g. /blog, if you're deploying to a subpath
 url: "https://mvemily.github.io" # the base hostname & protocol for your site
 theme: minima # a simple theme provided by Jekyll
