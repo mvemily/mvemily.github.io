@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Welcome to Emily for Mountain View 2024
-    text: It's Nice To Meet You
+    text: " "
     button: Tell Me More About Emily
     buttonlink: "#about"
 
