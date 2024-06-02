@@ -44,11 +44,11 @@ $palette: (
     border-bg:          rgba($highlight-base, 0.035), // Very light pink for border backgrounds
     highlight:          $highlight-base,    // Teal for highlights
     accent1:            $accent,    // Light pink for first accent
-    accent2:            lighten($primary, 20%), // Lighter navy blue for second accent
-    accent3:            darken($highlight-base, 10%), // Darker teal for third accent
-    accent4:            lighten($highlight-base, 10%), // Lighter teal for fourth accent
+    accent2:            darken($highlight-base, 10%), // Darker teal for third accent
+    accent3:            lighten($primary, 20%), // Lighter navy blue for second accent
+    accent4:            lighten($accent, 10%), // Lighter teal for fourth accent
     accent5:            $primary,    // Navy blue for fifth accent
-    accent6:            darken($highlight-base, 10%) // Darker light pink for sixth accent
+    accent6:            darken($accent, 10%) // Darker light pink for sixth accent
 );
 
 
