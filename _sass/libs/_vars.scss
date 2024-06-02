@@ -28,8 +28,32 @@
 		letter-spacing-alt:	0.25em
 	);
 
+// Define color constants
+$primary: #364257;
+$highlight-base: #f4d5d9;
+$accent: #469d9a;
+
 // Palette.
-	$palette: (
+$palette: (
+    bg:                 $primary,    // Navy blue for the main background
+    bg-alt:             darken($primary, 10%), // Darker navy blue for alternate background
+    fg:                 #ffffff,    // White for foreground text
+    fg-bold:            #ffffff,    // White for bold text
+    fg-light:           rgba($highlight-base, 0.2), // Light pink for light text
+    border:             rgba($highlight-base, 0.1), // Light pink for borders
+    border-bg:          rgba($highlight-base, 0.035), // Very light pink for border backgrounds
+    highlight:          $highlight-base,    // Teal for highlights
+    accent1:            $accent,    // Light pink for first accent
+    accent2:            lighten($primary, 20%), // Lighter navy blue for second accent
+    accent3:            darken($highlight-base, 10%), // Darker teal for third accent
+    accent4:            lighten($highlight-base, 10%), // Lighter teal for fourth accent
+    accent5:            $primary,    // Navy blue for fifth accent
+    accent6:            darken($highlight-base, 10%) // Darker light pink for sixth accent
+);
+
+
+  /* Original Palette from base theme
+  	$palette: (
 		bg:					#242943,
 		bg-alt:				#2a2f4a,
 		fg:					#ffffff,
@@ -45,3 +69,4 @@
 		accent5:			#8ea9e8,
 		accent6:			#87c5a4
 	);
+  */
