@@ -51,6 +51,9 @@
 				'filter 0.5s ease',
 				'-webkit-filter 0.5s ease'
 			));
+			@include vendor('display', 'flex');
+			@include vendor('align-items', 'center');
+			width: 100%;
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
@@ -71,9 +74,27 @@
 				}
 			}
 
-			.content {
+			.left, .right {
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
+				justify-content: center;
+
+				width: 50%;
+			}
+
+			.left {
+				.banner-image {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+
+			.right {
+				flex-direction: column;
+				margin-left: 2%;
+			}
+
+			.content {
 				margin: 0 0 _size(element-margin) 0;
 
 				> * {
@@ -98,7 +119,6 @@
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
-
 			&.alt {
 				  opacity: 0.75;
 			}
@@ -140,6 +160,10 @@
 			}
 
 			> .inner {
+				flex-direction: column;
+				.left, .right {
+					width: 100%;
+				}
 				.content {
 					display: block;
 
