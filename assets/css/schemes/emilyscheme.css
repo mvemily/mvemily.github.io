@@ -1,0 +1,34 @@
+:root {
+  --color-neutral-50:     244,245,247;   /* very light gray */
+  --color-neutral-100:    233,236,239;   /* light gray */
+  --color-neutral-200:    222,227,231;   /* light gray */
+  --color-neutral-300:    191,200,209;   /* medium light gray */
+  --color-neutral-400:    160,173,187;   /* medium gray */
+  --color-neutral-500:    129,145,165;   /* medium dark gray */
+  --color-neutral-600:    98,118,143;    /* dark gray */
+  --color-neutral-700:    67,91,120;     /* very dark gray */
+  --color-neutral-800:    51,68,88;      /* navy gray */
+  --color-neutral-900:    36,52,71;      /* dark navy */
+
+  --color-primary-50:     244,213,217;   /* very light pink */
+  --color-primary-100:    240,187,195;   /* light pink */
+  --color-primary-200:    237,162,173;   /* light pink */
+  --color-primary-300:    231,130,143;   /* medium light pink */
+  --color-primary-400:    226,97,114;    /* medium pink */
+  --color-primary-500:    218,65,85;     /* medium dark pink */
+  --color-primary-600:    181,52,68;     /* dark pink */
+  --color-primary-700:    144,39,52;     /* very dark pink */
+  --color-primary-800:    108,26,35;     /* dark maroon */
+  --color-primary-900:    71,13,19;      /* very dark maroon */
+
+  --color-secondary-50:     230,245,244; /* very light teal */
+  --color-secondary-100:    205,235,233; /* light teal */
+  --color-secondary-200:    179,224,222; /* light teal */
+  --color-secondary-300:    128,201,199; /* medium light teal */
+  --color-secondary-400:    102,191,188; /* medium teal */
+  --color-secondary-500:    70,157,154;  /* medium dark teal */
+  --color-secondary-600:    56,126,124;  /* dark teal */
+  --color-secondary-700:    42,94,94;    /* very dark teal */
+  --color-secondary-800:    28,63,63;    /* dark green */
+  --color-secondary-900:    14,31,31;    /* very dark green */
+}
