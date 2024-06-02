@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Hugo generated files
+public/
+resources/
+
+# Hugo caches
+.cache/
+
+# Log files
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Hugo server PID file
+hugo_server.pid
+
+# Netlify specific files
+netlify.toml
+
+# Miscellaneous
+*.swp
