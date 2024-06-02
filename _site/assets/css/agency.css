@@ -350,12 +350,12 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
-.timeline {
+.accomplishments {
   position: relative;
   padding: 0;
   list-style: none;
 }
-.timeline:before {
+.accomplishments:before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -365,38 +365,38 @@ header.masthead .intro-text .intro-heading {
   content: "";
   background-color: #e9ecef;
 }
-.timeline > li {
+.accomplishments > li {
   position: relative;
   min-height: 50px;
   margin-bottom: 50px;
 }
-.timeline > li:after, .timeline > li:before {
+.accomplishments > li:after, .accomplishments > li:before {
   display: table;
   content: " ";
 }
-.timeline > li:after {
+.accomplishments > li:after {
   clear: both;
 }
-.timeline > li .timeline-panel {
+.accomplishments > li .accomplishments-panel {
   position: relative;
   float: right;
   width: 100%;
   padding: 0 20px 0 100px;
   text-align: left;
 }
-.timeline > li .timeline-panel:before {
+.accomplishments > li .accomplishments-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
 }
-.timeline > li .timeline-panel:after {
+.accomplishments > li .accomplishments-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
 }
-.timeline > li .timeline-image {
+.accomplishments > li .accomplishments-image {
   position: absolute;
   z-index: 100;
   left: 0;
@@ -409,111 +409,111 @@ header.masthead .intro-text .intro-heading {
   border-radius: 100%;
   background-color: #fed136;
 }
-.timeline > li .timeline-image h4 {
+.accomplishments > li .accomplishments-image h4 {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
 }
-.timeline > li.timeline-inverted > .timeline-panel {
+.accomplishments > li.accomplishments-inverted > .accomplishments-panel {
   float: right;
   padding: 0 20px 0 100px;
   text-align: left;
 }
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.accomplishments > li.accomplishments-inverted > .accomplishments-panel:before {
   right: auto;
   left: -15px;
   border-right-width: 15px;
   border-left-width: 0;
 }
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.accomplishments > li.accomplishments-inverted > .accomplishments-panel:after {
   right: auto;
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
 }
-.timeline > li:last-child {
+.accomplishments > li:last-child {
   margin-bottom: 0;
 }
-.timeline .timeline-heading h4 {
+.accomplishments .accomplishments-heading h4 {
   margin-top: 0;
   color: inherit;
 }
-.timeline .timeline-heading h4.subheading {
+.accomplishments .accomplishments-heading h4.subheading {
   text-transform: none;
 }
-.timeline .timeline-body > ul,
-.timeline .timeline-body > p {
+.accomplishments .accomplishments-body > ul,
+.accomplishments .accomplishments-body > p {
   margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
-  .timeline:before {
+  .accomplishments:before {
     left: 50%;
   }
-  .timeline > li {
+  .accomplishments > li {
     min-height: 100px;
     margin-bottom: 100px;
   }
-  .timeline > li .timeline-panel {
+  .accomplishments > li .accomplishments-panel {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
     text-align: right;
   }
-  .timeline > li .timeline-image {
+  .accomplishments > li .accomplishments-image {
     left: 50%;
     width: 100px;
     height: 100px;
     margin-left: -50px;
   }
-  .timeline > li .timeline-image h4 {
+  .accomplishments > li .accomplishments-image h4 {
     font-size: 13px;
     line-height: 18px;
     margin-top: 16px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
+  .accomplishments > li.accomplishments-inverted > .accomplishments-panel {
     float: right;
     padding: 0 30px 20px 20px;
     text-align: left;
   }
 }
 @media (min-width: 992px) {
-  .timeline > li {
+  .accomplishments > li {
     min-height: 150px;
   }
-  .timeline > li .timeline-panel {
+  .accomplishments > li .accomplishments-panel {
     padding: 0 20px 20px;
   }
-  .timeline > li .timeline-image {
+  .accomplishments > li .accomplishments-image {
     width: 150px;
     height: 150px;
     margin-left: -75px;
   }
-  .timeline > li .timeline-image h4 {
+  .accomplishments > li .accomplishments-image h4 {
     font-size: 18px;
     line-height: 26px;
     margin-top: 30px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
+  .accomplishments > li.accomplishments-inverted > .accomplishments-panel {
     padding: 0 20px 20px;
   }
 }
 @media (min-width: 1200px) {
-  .timeline > li {
+  .accomplishments > li {
     min-height: 170px;
   }
-  .timeline > li .timeline-panel {
+  .accomplishments > li .accomplishments-panel {
     padding: 0 20px 20px 100px;
   }
-  .timeline > li .timeline-image {
+  .accomplishments > li .accomplishments-image {
     width: 170px;
     height: 170px;
     margin-left: -85px;
   }
-  .timeline > li .timeline-image h4 {
+  .accomplishments > li .accomplishments-image h4 {
     margin-top: 40px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
+  .accomplishments > li.accomplishments-inverted > .accomplishments-panel {
     padding: 0 100px 20px 20px;
   }
 }
@@ -535,48 +535,48 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
-section#contact {
+section#get-involved {
   background-color: #212529;
-  background-image: url("../img/contact.png");
+  background-image: url("../img/get-involved.png");
   background-repeat: no-repeat;
   background-position: center;
 }
-section#contact .section-heading {
+section#get-involved .section-heading {
   color: #fff;
 }
-section#contact .form-group {
+section#get-involved .form-group {
   margin-bottom: 25px;
 }
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#get-involved .form-group input,
+section#get-involved .form-group textarea {
   padding: 20px;
 }
-section#contact .form-group input.form-control {
+section#get-involved .form-group input.form-control {
   height: auto;
 }
-section#contact .form-group textarea.form-control {
+section#get-involved .form-group textarea.form-control {
   height: 248px;
 }
-section#contact .form-control:focus {
+section#get-involved .form-control:focus {
   border-color: #fed136;
   box-shadow: none;
 }
-section#contact ::-webkit-input-placeholder {
+section#get-involved ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-section#contact :-moz-placeholder {
+section#get-involved :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-section#contact ::-moz-placeholder {
+section#get-involved ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-section#contact :-ms-input-placeholder {
+section#get-involved :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

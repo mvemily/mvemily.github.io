@@ -1,5 +1,5 @@
-// Styling for the timeline section
-.timeline {
+// Styling for the accomplishments section
+.accomplishments {
   position: relative;
   padding: 0;
   list-style: none;
@@ -25,7 +25,7 @@
     &:after {
       clear: both;
     }
-    .timeline-panel {
+    .accomplishments-panel {
       position: relative;
       float: right;
       width: 100%;
@@ -44,7 +44,7 @@
         border-left-width: 0;
       }
     }
-    .timeline-image {
+    .accomplishments-image {
       position: absolute;
       z-index: 100;
       left: 0;
@@ -62,7 +62,7 @@
         margin-top: 12px;
       }
     }
-    &.timeline-inverted > .timeline-panel {
+    &.accomplishments-inverted > .accomplishments-panel {
       float: right;
       padding: 0 20px 0 100px;
       text-align: left;
@@ -83,7 +83,7 @@
       margin-bottom: 0;
     }
   }
-  .timeline-heading {
+  .accomplishments-heading {
     h4 {
       margin-top: 0;
       color: inherit;
@@ -92,7 +92,7 @@
       }
     }
   }
-  .timeline-body {
+  .accomplishments-body {
     > ul,
     > p {
       margin-bottom: 0;
@@ -100,20 +100,20 @@
   }
 }
 @media (min-width: 768px) {
-  .timeline {
+  .accomplishments {
     &:before {
       left: 50%;
     }
     > li {
       min-height: 100px;
       margin-bottom: 100px;
-      .timeline-panel {
+      .accomplishments-panel {
         float: left;
         width: 41%;
         padding: 0 20px 20px 30px;
         text-align: right;
       }
-      .timeline-image {
+      .accomplishments-image {
         left: 50%;
         width: 100px;
         height: 100px;
@@ -124,7 +124,7 @@
           margin-top: 16px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.accomplishments-inverted > .accomplishments-panel {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
@@ -133,13 +133,13 @@
   }
 }
 @media (min-width: 992px) {
-  .timeline {
+  .accomplishments {
     > li {
       min-height: 150px;
-      .timeline-panel {
+      .accomplishments-panel {
         padding: 0 20px 20px;
       }
-      .timeline-image {
+      .accomplishments-image {
         width: 150px;
         height: 150px;
         margin-left: -75px;
@@ -149,20 +149,20 @@
           margin-top: 30px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.accomplishments-inverted > .accomplishments-panel {
         padding: 0 20px 20px;
       }
     }
   }
 }
 @media (min-width: 1200px) {
-  .timeline {
+  .accomplishments {
     > li {
       min-height: 170px;
-      .timeline-panel {
+      .accomplishments-panel {
         padding: 0 20px 20px 100px;
       }
-      .timeline-image {
+      .accomplishments-image {
         width: 170px;
         height: 170px;
         margin-left: -85px;
@@ -170,7 +170,7 @@
           margin-top: 40px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.accomplishments-inverted > .accomplishments-panel {
         padding: 0 100px 20px 20px;
       }
     }

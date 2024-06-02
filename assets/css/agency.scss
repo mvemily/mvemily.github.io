@@ -23,7 +23,7 @@ $black: {{ site.data.style.black | default: "#000" }} !default;
 
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
-$contact-image: "{{ site.data.style.contact-image }}";
+$get-involved-image: "{{ site.data.style.get-involved-image }}";
 
 // Global CSS
 @import "base/page.scss";
@@ -35,9 +35,9 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Layout
 @import "layout/masthead.scss";
-@import "layout/services.scss";
+@import "layout/endorsements.scss";
 @import "layout/portfolio.scss";
-@import "layout/timeline.scss";
+@import "layout/accomplishments.scss";
 @import "layout/team.scss";
-@import "layout/contact.scss";
+@import "layout/get_involved.scss";
 @import "layout/footer.scss";
