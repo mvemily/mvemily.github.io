@@ -1,44 +1,44 @@
+# site settings
+title: Emily
+subtitle: for Mountain View
+email: youremailaddress@gmail.com
+description: 
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone:
 
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/andrewbanchich
+  GitLab:
+  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+  Twitter: https://twitter.com/andrewbanchich
+  Facebook:
+  Slack:
 
-#theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
-
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-
-title      : Emily for Mountain View 2024
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Something"
-author     : Your Name
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
-
-locale: "en-US" # See available languages in _data/sitetext.yml
-
-analytics:
-  google: #Google Analytics tracking code here
-
-collections:
-  portfolio:
-
+# build settings
 markdown: kramdown
 
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+sass:
+  style: compressed
 
-plugins:
-  - jekyll-remote-theme
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 

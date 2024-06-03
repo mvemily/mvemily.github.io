@@ -1,3 +1,52 @@
-_site/
-Gemfile.lock
-*.DS_store
+# Ignore bundler config.
+/.bundle
+
+# Ignore the site output.
+/_site
+/site
+
+# Ignore Sass cache files.
+/.sass-cache
+.sass-cache
+
+# Ignore Jekyll metadata file.
+/.jekyll-metadata
+
+# Ignore node modules
+node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore temporary files and backups
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore byebug command history file.
+.byebug_history
+
+# Ignore files specific to macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Ignore any other sensitive information
+secrets.yml
