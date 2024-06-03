@@ -4,10 +4,11 @@ modify and deploy Emily's campaign website.
 We're planning to use the jekyll theme 'agency'
 https://github.com/raviriley/agency-jekyll-theme
 
-
+# How to add content
+## Making a new post
+Posts can be added by duplicating one of the example md files under /_posts/ directory.
 
 # Running Jekyll locally
-
 
 ## Use a Ruby Version Manager
 Using a Ruby version manager like `rbenv` or `rvm` allows you to manage Ruby versions and gem installations without requiring superuser permissions.
@@ -48,7 +49,7 @@ Using a Ruby version manager like `rbenv` or `rvm` allows you to manage Ruby ver
      gem install bundler
      ```
 
-5. Run locally
+5. **Run locally**:
 
    ```sh
    bundle install
