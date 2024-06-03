@@ -9,6 +9,12 @@
 	#main {
 		background-color: _palette(bg-alt);
 
+		.whole {
+			@include vendor('align-items', 'center');
+			@include vendor('display', 'flex');
+			flex-direction: column;
+		}
+
 		> * {
 			border-top: solid 1px _palette(border);
 
