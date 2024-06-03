@@ -94,6 +94,10 @@
 				margin-left: 2%;
 			}
 
+			.whole {
+				flex-direction: column;
+			}
+
 			.content {
 				margin: 0 0 _size(element-margin) 0;
 
