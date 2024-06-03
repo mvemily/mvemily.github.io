@@ -10,27 +10,27 @@
 
     <body>
 
-        {% include header.html %}
+    {% include header.html %}
 
-        <section id="banner" class="style2">
-            <div class="inner">
-                <div class="whole">
-                    <span class="image">
-                        <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
-                    </span>
-                    <header class="major">
+    <section id="banner" class="style2">
+        <div class="inner">
+            <div class="whole">
+                <span class="image">
+                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+                </span>
+                <header class="major">
     
-                        <h1>{{ page.title }}</h1>
+                    <h1>{{ page.title }}</h1>
     
-                    </header>
-                    <div class="content">
+                </header>
+                <div class="content">
     
-                        {{ page.description }}
+                    {{ page.description }}
     
-                    </div>
                 </div>
+            </div>
         </div>
-        </section>
+    </section>
 
     {{ content }}
 
