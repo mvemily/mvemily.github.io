@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: Join the campaing!
 description: Lorem ipsum dolor est
 image: assets/images/pic11.jpg
 nav-menu: true
