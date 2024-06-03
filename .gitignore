@@ -50,3 +50,6 @@ Thumbs.db
 
 # Ignore any other sensitive information
 secrets.yml
+
+# Ignore ruby system-specific stuff
+Gemfile.lock
