@@ -1,17 +1,17 @@
 # site settings
 title: Emily
 subtitle: for Mountain View
-email: youremailaddress@gmail.com
+email: vote@emilyannramos.com
 description: 
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 
-city: 
-state: 
-zip_code: 
+street_address: PO Box 1026
+city: Mountain View
+state: California
+zip_code: 94042
 country: 
-phone:
+phone: (650) 468-0493
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,12 +22,12 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: 
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus:
   Instagram:
   LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
+  Twitter: 
   Facebook:
   Slack:
 
