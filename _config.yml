@@ -1,15 +1,15 @@
 # site settings
 title: Emily
 subtitle: for Mountain View
-email: youremailaddress@gmail.com
+email: vote@emilyannramos.com
 description: 
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: P.O. Box 1234
+street_address: PO Box 1026
 city: Mountain View
 state: California
-zip_code: 94040
+zip_code: 94042
 country: 
 phone: (650) 468-0493
 
