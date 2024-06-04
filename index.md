@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Support Emily Ann Ramos in her mission to create a more affordable, sustainable, and inclusive Mountain View. Your contribution ensures that Emily can continue to fight for housing solutions, environmental sustainability, and accessible government for all residents. Donate now to help re-elect a proven leader!
