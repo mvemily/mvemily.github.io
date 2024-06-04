@@ -1,7 +1,7 @@
 ---
 title: Priorities
 layout: landing
-description: 'Learn about her goals for Mountain View'
+description: Building an affordable, sustainable, and inclusive Mountain View for All
 image: assets/images/city_hall_sunset.jpg
 nav-menu: true
 ---
@@ -30,8 +30,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Housing</h3>
 				</header>
-				<p>As your councilmember, my goal is to create a range of housing solutions to ensure Mountain View is home for past, current, and future residents. To achieve this, I will:
-				<ul>
+				<p>My goal is to create a range of housing solutions to ensure Mountain View is home for past, current, and future residents. To achieve this, I will: <ul>
 					<li>Streamline the process for building new housing at affordability levels that meet everyone's needs</li>
 					<li>Preserve affordable housing through innovative community ownership models, non-profit acquisitions,  funding for rehabilitation and extension of affordability covenants, and more </li>
 					<li>Protect tenants by implementing displacement response programs  and financial assistance programs for low income renters </li>
@@ -54,8 +53,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Climate Resiliency</h3>
 				</header>
-				<p>I'm dedicated to advancing innovative solutions to make Mountain View a leader in climate resilience. My goals include:
-				<ul>
+				<p>I'm dedicated to advancing innovative solutions to make Mountain View a leader in climate resilience. My goals include: <ul>
 					<li>Ensuring our infrastructure supports safe, accessible alternatives to car transportation </li>
 					<li>Promoting programs for pollinator habitats and equitable open spaces </li>
 					<li>Expand opportunities and support resident education on zero waste and easy recycling </li>
@@ -79,8 +77,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Civic Participation</h3>
 				</header>
-				<p>I believe that an open, responsive government can create a Mountain View that works for everyone. My objectives include:
-				<ul>
+				<p>I believe that an open, responsive government can create a Mountain View that works for everyone. My objectives include: <ul>
 				<li>Making government participation is rewarding for every resident, ensuring all voices are heard and valued </li>
 				<li>Promoting contribution & expenditure agreements to increase equity and transparency in city campaigns </li>
 				<li>Ensuring city outreach accounts for our diversity with multi-language support and inclusive engagement efforts </li>
