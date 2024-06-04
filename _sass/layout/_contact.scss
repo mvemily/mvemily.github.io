@@ -13,28 +13,22 @@
 		> .inner {
 			@include vendor('display', 'flex');
 			padding: 0 !important;
-
-			> :nth-child(2n - 1) {
-				@include padding(4em, 0, (0, 3em, 0, 0));
-				border-right: solid 1px _palette(border);
-				width: 60%;
-				z-index: 1;
-			}
-
-			> :nth-child(2n) {
-				padding-left: 3em;
-				width: 40%;
-			}
+			width: 100%;
 
 			> .split {
+				@include vendor('display', 'flex');
+				flex-direction: row;
 				padding: 0;
+				width: 100%;
 
 				> * {
 					@include padding(3em, 0, (0, 0, 0, 3em));
 					position: relative;
+					flex: 1;
+					min-width: 150pt;
 
 					&:before {
-						border-top: solid 1px _palette(border);
+						border-left: solid 1px _palette(border);
 						content: '';
 						display: block;
 						margin-left: -3em;
@@ -54,23 +48,9 @@
 
 		@include breakpoint(medium) {
 			> .inner {
-				display: block;
-
-				> :nth-child(2n - 1) {
-					@include padding(4em, 0, (0, 0, 0, 0));
-					border-right: 0;
-					width: 100%;
-				}
-
-				> :nth-child(2n) {
-					padding-left: 0;
-					width: 100%;
-				}
-
 				> .split {
 					> * {
 						@include padding(3em, 0, (0, 0, 0, 0));
-
 						&:before {
 						}
 					}
@@ -86,6 +66,9 @@
 
 		@include breakpoint(small) {
 			> .inner {
+				>.split {
+					flex-direction: column;
+				}
 				> :nth-child(2n - 1) {
 					@include padding(3em, 0, (0, 0, 0, 0));
 				}
