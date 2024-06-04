@@ -2,7 +2,7 @@
 layout: post
 title: Endorsements
 description: See who stands with Emily
-image: assets/images/pic11.jpg
+image: assets/images/placeholder_endorsement_photo.jpg
 nav-menu: true
 ---
 

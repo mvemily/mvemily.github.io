@@ -2,7 +2,7 @@
 layout: post
 title: Learn about Emily
 description: Get to know your councilmember
-image: assets/images/square-headshot-pink-1.jpg
+image: assets/images/wide-headshot-park-2.jpg
 nav-menu: true
 ---
 
