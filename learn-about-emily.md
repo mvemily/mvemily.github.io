@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn about Emily
-description: Get to know your councilmember
+description: Dedicated and experienced advocate with more than a decade of engagement in our community
 image: assets/images/donate.jpg
 nav-menu: true
 ---
