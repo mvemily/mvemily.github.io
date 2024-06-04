@@ -2,7 +2,7 @@
 layout: post
 title: Join the campaign!
 description: Help us drive change
-image: assets/images/pic09.jpg
+image: assets/images/join.jpg
 nav-menu: true
 ---
 

@@ -13,9 +13,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Mountain View is Home</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>NAs your councilmember, I'm committed to finding and advancing innovative solutions for our city's most pressing challenges. By working together, we can ensure that Mountain View remains a vibrant, welcoming home for generations to come.</p>
 	</div>
 </section>
 
@@ -23,14 +23,20 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/park-place-bench.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
 					<h3>Housing</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>As your councilmember, my goal is to create a range of housing solutions to ensure Mountain View is home for past, current, and future residents. To achieve this, I will:
+				<ul>
+					<li>Streamline the process for building new housing at affordability levels that meet everyone's needs</li>
+					<li>Preserve affordable housing through innovative community ownership models, non-profit acquisitions,  funding for rehabilitation and extension of affordability covenants, and more </li>
+					<li>Protect tenants by implementing displacement response programs  and financial assistance programs for low income renters </li>
+				</ul>
+				</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
@@ -39,14 +45,21 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/poppy.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
 					<h3>Climate Resiliency</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>I'm dedicated to advancing innovative solutions to make Mountain View a leader in climate resilience. My goals include:
+				<ul>
+					<li>Ensuring our infrastructure supports safe, accessible alternatives to car transportation </li>
+					<li>Promoting programs for pollinator habitats and equitable open spaces </li>
+					<li>Expand opportunities and support resident education on zero waste and easy recycling </li>
+					<li>Investing in flood protection and environmental stewardship to preserve our natural resources, especially in North Bayshore </li>
+				</ul>
+				</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
@@ -55,14 +68,20 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/cityhall.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Open Government</h3>
+					<h3>Civic Participation</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>I believe that an open, responsive government can create a Mountain View that works for everyone. My objectives include:
+				<ul>
+				<li>Making government participation is rewarding for every resident, ensuring all voices are heard and valued </li>
+				<li>Promoting contribution & expenditure agreements to increase equity and transparency in city campaigns </li>
+				<li>Ensuring city outreach accounts for our diversity with multi-language support and inclusive engagement efforts </li>
+				</ul>
+				</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
@@ -77,7 +96,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Support Emily</h2>
 		</header>
-		<p>Support Emily Ann Ramos in her mission to create a more affordable, sustainable, and inclusive Mountain View. Your contribution ensures that Emily can continue to fight for housing solutions, environmental sustainability, and accessible government for all residents. Donate now to help re-elect a proven leader!</p>
+		<p>Support Emily’s campaign to create a more affordable, sustainable, and inclusive Mountain View. Every contribution makes a difference!</p>
 		<ul class="actions">
 			<li><a href="donate.html" class="button special next">Donate</a></li>
 		</ul>
