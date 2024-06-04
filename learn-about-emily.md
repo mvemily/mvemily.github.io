@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Learn about Emily
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+description: Get to know your councilmember
+image: assets/images/square-headshot-pink-1.jpg
 nav-menu: true
 ---
 

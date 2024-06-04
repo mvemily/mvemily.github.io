@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Join the campaign!
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+description: Help us drive change
+image: assets/images/pic09.jpg
 nav-menu: true
 ---
 

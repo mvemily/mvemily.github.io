@@ -1,8 +1,8 @@
 ---
 title: Priorities
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+description: 'Learn about her goals for Mountain View'
+image: assets/images/city_hall_sunset.jpg
 nav-menu: true
 ---
 
