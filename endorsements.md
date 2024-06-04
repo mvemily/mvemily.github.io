@@ -23,7 +23,6 @@ Lenny Siegel, Former Mountain View Mayor
 Thida Cornes, Mountain View - Los Altos High School District Trustee  
 Patrick Ahrens, Foothill-DeAnza Community College District President  
 Joan MacDonald, Former Mountain View - Los Altos High School District Trustee  
-Greer Stone, Palo Alto Mayor  
 Richard Mellinger, Sunnyvale City Councilmember   
 JR Fruen, Cupertino City Councilmember  
 Sergio Lopez, Campbell City Councilmember  
