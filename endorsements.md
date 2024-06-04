@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Endorsements
-description: Lorem ipsum dolor est
+description: See who stands with Emily
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
