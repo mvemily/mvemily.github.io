@@ -3,7 +3,7 @@ title: Emily
 subtitle: for Mountain View
 email: vote@emilyannramos.com
 description: 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://emilyannramos.com/
 author:
 street_address: PO Box 1026
