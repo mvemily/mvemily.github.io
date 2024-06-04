@@ -4,8 +4,7 @@ title: Endorsements
 description: See who stands with Emily
 image: assets/images/endorsements.jpg
 nav-menu: true
----
-(Titles for identification purposes only)  
+---  
 ### Elected Officials  
 
 “As a fellow AANHPI woman, I know how hard Emily has worked to bring that lens to local government, creating a seat at the table for people who feel left out by their city. I’m honored to support her in continuing that work to build an inclusive Mountain View.”  
@@ -47,3 +46,5 @@ Pardis Beizkadeh
 Cassandra Magana  
 Deb Henigson  
 Kelsey Banes  
+  
+*(Titles for identification purposes only)*
