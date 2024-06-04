@@ -2,12 +2,18 @@
 layout: post
 title: Learn about Emily
 description: Get to know your councilmember
-image: assets/images/wide-headshot-park-2.jpg
+image: assets/images/donate.jpg
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+18 months ago, I was serving on the City of Mountain View’s Rental Housing Committee, fighting to ensure that 15,000 of our families are protected from dramatic rent increases that could force them into homelessness. I had gained a reputation as a strong advocate for building more housing, protecting tenants, and strengthening local campaign finance laws to hold politicians accountable.  
+  
+When a vacancy opened up on the City Council, I saw a chance to further my commitment to public service and decided to run for the position. With a strong showing of community support, I was honored to earn the vote of five of six Councilmembers, becoming the first person of Filipino descent to sit on the Mountain View City Council. I feel deeply grateful to have served alongside my colleagues over the past year and a half.  
+  
+In that (relatively) short time, we passed a strong Housing Element with policies to respond to displacement and remove barriers to building more housing, work that was recognized by the California Housing and Community Development Department (HCD) when they made Mountain View the only city in Santa Clara County to earn the state’s “pro-housing” designation. We invested in small businesses, post-pandemic recovery, workforce development, and affordable housing, moving our city toward a vibrant, inclusive, and sustainable future.  
+  
+I’m running for City Council to continue this work and keep our city at the forefront of innovative solutions to our greatest challenges. And it will take all of us working together to make it so.  
+  
+Mountain View is home, whether your family has lived here for generations or if you just moved in. As a daughter of Filipino immigrants who came to this country seeking a better future for their family, I’m grateful to live in a city where anyone can make a difference, and I hope to keep doing just that.  
+  
+Together, I know we will celebrate a big victory on the ballot and achieve great things for Mountain View on the City Council. I extend my deepest gratitude in advance for your support.  
