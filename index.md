@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Emily'
+landing-title: 'Mountain View is the Best City!'
 description: null
 image: null
 author: null
