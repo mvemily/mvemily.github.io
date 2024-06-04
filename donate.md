@@ -1,14 +1,21 @@
 ---
 layout: post
 title: Donations
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+description: Donate to Emily's campaign to keep Mountain View a community for all. Every contribution makes a difference!
+image: assets/images/wide-headshot-pink-1.jpg
 nav-menu: false
 show_tile: false
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+Donate to Emily's campaign to keep Mountain View a community for all. Every contribution makes a difference!  
+  
+Click here to donate online through ActBlue.   
+  
+Or send in a check: Make checks payable to: **Emily Ann Ramos for Council 2024**  
+  
+Mail it to:  
+PO Box 1026  
+Mountain View, CA 94042  
+  
+Please print and mail [this form](PrintableDonationForm.pdf) with the check.  
+Law requires we ask for your employer and occupation for donations $100 or over. If you don't have an employer or are retired, put N/A, and if you are self-employed put "self-employed" in employer and describe your occupation.  
