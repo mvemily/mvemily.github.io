@@ -75,9 +75,9 @@ nav-menu: true
 <section id="three">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>Support Emily</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>Support Emily Ann Ramos in her mission to create a more affordable, sustainable, and inclusive Mountain View. Your contribution ensures that Emily can continue to fight for housing solutions, environmental sustainability, and accessible government for all residents. Donate now to help re-elect a proven leader!</p>
 		<ul class="actions">
 			<li><a href="donate.html" class="button special next">Donate</a></li>
 		</ul>
