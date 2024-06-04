@@ -15,7 +15,7 @@ nav-menu: true
 		<header class="major">
 			<h2>Mountain View is Home</h2>
 		</header>
-		<p>NAs your councilmember, I'm committed to finding and advancing innovative solutions for our city's most pressing challenges. By working together, we can ensure that Mountain View remains a vibrant, welcoming home for generations to come.</p>
+		<p>As your councilmember, I'm committed to finding and advancing innovative solutions for our city's most pressing challenges. By working together, we can ensure that Mountain View remains a vibrant, welcoming home for generations to come.</p>
 	</div>
 </section>
 
@@ -37,9 +37,11 @@ nav-menu: true
 					<li>Protect tenants by implementing displacement response programs  and financial assistance programs for low income renters </li>
 				</ul>
 				</p>
+				<!--
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
+				-->
 			</div>
 		</div>
 	</section>
@@ -60,9 +62,11 @@ nav-menu: true
 					<li>Investing in flood protection and environmental stewardship to preserve our natural resources, especially in North Bayshore </li>
 				</ul>
 				</p>
+				<!--
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
+				-->
 			</div>
 		</div>
 	</section>
@@ -82,9 +86,11 @@ nav-menu: true
 				<li>Ensuring city outreach accounts for our diversity with multi-language support and inclusive engagement efforts </li>
 				</ul>
 				</p>
+				<!--
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
 				</ul>
+				-->
 			</div>
 		</div>
 	</section>
