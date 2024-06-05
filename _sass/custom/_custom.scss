@@ -1,7 +1,9 @@
 
 
 .donation-buttons {
-    display: flex;
+    display: grid;
+    grid-auto-flow: row;
     gap: 1rem;
     padding-bottom: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
