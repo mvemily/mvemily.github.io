@@ -9,7 +9,7 @@ show_tile: false
 
 Donate to Emily's campaign to keep Mountain View a community for all. Every contribution makes a difference!  
   
-[Click here to donate online through ActBlue.](https://secure.actblue.com/donate/emily-ann-ramos-for-council-2024-1)
+[Click here to donate online through ActBlue.](https://secure.actblue.com/donate/emilyannramos)
     
 Or send in a check: Make checks payable to: **Emily Ann Ramos for Council 2024**  
   
