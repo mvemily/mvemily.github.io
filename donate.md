@@ -11,7 +11,7 @@ Donate to Emily's campaign to keep Mountain View a community for all. Every cont
   
 [Click here to donate online through ActBlue.](https://secure.actblue.com/donate/emilyannramos)
 
-<div style="display: flex; gap: 1rem; padding-block-end:1em;">
+<div class="donation-buttons">
 
 {% for donation in site.data.donation %}
     <a href="https://secure.actblue.com/donate/emilyannramos?amount={{ donation.amount }}" class="button">
