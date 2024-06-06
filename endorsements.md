@@ -25,10 +25,10 @@ nav-menu: true
 
 ### Boardmembers and Commissioners
 
-|      |      |
-| ---: | :--- |
+|      |      |      |
+| ---: | :--- | ---: |
 {%- for boardmember in site.data.endorsements.boards %}
-| {{boardmember.name}} | {% if boardmember.title %} **{{boardmember.title | strip }}** {% endif %} {{boardmember.organization}} |
+| {{boardmember.name}} | {% if boardmember.title %} **{{boardmember.title | strip }}** {% endif %} | {{boardmember.organization}} |
 {%- endfor %}
 {: .endorsement-table}
 
