@@ -22,7 +22,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
+		<a class="image">
 			<img src="{% link assets/images/park-place-bench.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -36,16 +36,11 @@ nav-menu: true
 					<li>Protect tenants by implementing displacement response programs  and financial assistance programs for low income renters </li>
 				</ul>
 				</p>
-				<!--
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-				-->
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a class="image">
 			<img src="{% link assets/images/poppy.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -60,16 +55,11 @@ nav-menu: true
 					<li>Investing in flood protection and environmental stewardship to preserve our natural resources, especially in North Bayshore </li>
 				</ul>
 				</p>
-				<!--
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-				-->
 			</div>
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a class="image">
 			<img src="{% link assets/images/cityhall.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
@@ -83,11 +73,6 @@ nav-menu: true
 				<li>Ensuring city outreach accounts for our diversity with multi-language support and inclusive engagement efforts </li>
 				</ul>
 				</p>
-				<!--
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-				-->
 			</div>
 		</div>
 	</section>
@@ -101,7 +86,7 @@ nav-menu: true
 		</header>
 		<p>Support Emily’s campaign to create a more affordable, sustainable, and inclusive Mountain View. Every contribution makes a difference!</p>
 		<ul class="actions">
-			<li><a href="donate.html" class="button special next">Donate</a></li>
+			<li><a href="donate" class="button special next">Donate</a></li>
 		</ul>
 	</div>
 </section>
