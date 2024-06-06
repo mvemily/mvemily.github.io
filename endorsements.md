@@ -16,20 +16,19 @@ nav-menu: true
 “Emily is an open minded, inquisitive, thoughtful and compassionate leader who is extremely qualified to serve the Mountain View Community!”  
 &mdash; Former Mayor Mike Kasperzak
   
-|      |      |
-| ---: | :--- |
+|      |      |      |
+| ---: | :--- | ---: |
 {%- for boardmember in site.data.endorsements.main %}
-| {{boardmember.name}} | {{boardmember.organization}} {% if boardmember.title %} <span class="spacer"></span>**{{boardmember.title | strip }}** {% endif %} |
+| {{boardmember.name}} | {% if boardmember.title %} **{{boardmember.title | strip }}** {% endif %} | {{boardmember.organization}} |
 {%- endfor %}
 {: .endorsement-table}
-
 
 ### Boardmembers and Commissioners
 
 |      |      |
 | ---: | :--- |
 {%- for boardmember in site.data.endorsements.boards %}
-| {{boardmember.name}} | {{boardmember.organization}} {% if boardmember.title %} <span class="spacer"></span>**{{boardmember.title | strip }}** {% endif %} |
+| {{boardmember.name}} | {% if boardmember.title %} **{{boardmember.title | strip }}** {% endif %} {{boardmember.organization}} |
 {%- endfor %}
 {: .endorsement-table}
 
