@@ -7,3 +7,36 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     padding-bottom: 1rem;
 }
+
+.endorsement-table {
+    width: auto;
+
+    td {
+        padding-block: .25rem;
+    }
+
+    td:nth-of-type(1) {
+        // padding-inline-end: 4px;
+    }
+    td:nth-of-type(2) {
+        // padding-inline-start: 4px;
+    }
+}
+
+.endorsement-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 30rem;
+    
+    li {
+        white-space: nowrap;
+        &:nth-of-type(2n) {
+            color: map-get($palette, "accent4");
+        }
+        &:nth-of-type(2n+1) {
+            color: $highlight-base;
+        }
+
+    }
+}
