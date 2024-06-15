@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Welcome Home!'
+landing-title: 'Mountain View is Home. Welcome Home!'
 description: null
 image: null
 author: null
