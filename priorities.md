@@ -86,7 +86,7 @@ nav-menu: true
 		</header>
 		<p>Support Emily’s campaign to create a more affordable, sustainable, and inclusive Mountain View. Every contribution makes a difference!</p>
 		<ul class="actions">
-			<li><a href="donate" class="button special next">Donate</a></li>
+			<li><a href="../donate" class="button special next">Donate</a></li>
 		</ul>
 	</div>
 </section>
