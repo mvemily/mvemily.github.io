@@ -6,7 +6,7 @@ image: assets/images/donate.jpg
 nav-menu: true
 ---
 
-18 months ago, I was serving on the City of Mountain View’s Rental Housing Committee, fighting to ensure that 15,000 of our families are protected from dramatic rent increases that could force them into homelessness. I had gained a reputation as a strong advocate for building more housing, protecting tenants, and strengthening local campaign finance laws to hold politicians accountable.  
+18 months ago, I was serving on the City of Mountain View’s Rental Housing Committee, fighting to ensure that 15,000 of our families are protected from dramatic rent increases that could force them into homelessness. I had gained a reputation as a strong advocate for building more housing, protecting tenants, and strengthening local campaign finance laws to increase trust in government.  
   
 When a vacancy opened up on the City Council, I saw a chance to further my commitment to public service and decided to run for the position. With a strong showing of community support, I was honored to earn the vote of five of six Councilmembers, becoming the first person of Filipino descent to sit on the Mountain View City Council. I feel deeply grateful to have served alongside my colleagues over the past year and a half.  
   
