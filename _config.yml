@@ -19,6 +19,9 @@ tiles-count: 6
 
 permalink: pretty
 
+plugins:
+  - jekyll-sitemap
+
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
