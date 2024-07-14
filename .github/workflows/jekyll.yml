@@ -58,6 +58,11 @@ jobs:
         uses: cicirello/generate-sitemap@v1.10.1
         with:
           base-url-path: https://emilyannramos.com/
+      - name: Output stats
+        run: |
+          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
             
 
   # Deployment job
