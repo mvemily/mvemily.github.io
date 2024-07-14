@@ -50,6 +50,13 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+      - name: generate-sitemap
+        uses: cicirello/generate-sitemap@v1.10.1
+            
 
   # Deployment job
   deploy:
