@@ -1,0 +1,15 @@
+{% assign image = include.endorsement.image %}
+{% assign quote = include.endorsement.quote %}
+{% assign endorser = include.endorsement.endorser %}
+
+<div class="endorsement-card {% if image %} endorsement-card-image {% endif %}">
+    {% if image -%}
+    <div class="endorsement-image-block">
+        <img class="endorsement-image" title="{{ endorser }}" alt="Picture of {{ endorser }}" src="{{ image }}">
+    </div>
+    {%- endif %}
+    <div class="endorsement-quote-block">
+        <p class="endorsement-quote"> {{ quote }} </p>
+        <p class="endorsement-endorser"> &mdash; {{ endorser }}</p>
+    </div>
+</div>
