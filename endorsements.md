@@ -7,14 +7,11 @@ nav-menu: true
 ---  
 ### Elected Officials
 
-“As a fellow AANHPI woman, I know how hard Emily has worked to bring that lens to local government, creating a seat at the table for people who feel left out by their city. I’m honored to support her in continuing that work to build an inclusive Mountain View.”  
-&mdash; Former California State Controller Betty Yee  
-  
-“Emily is a tireless advocate and expert on the most pressing issue in our state and region: the affordability and availability of housing. I am proud to endorse her because she understands what it takes to collaborate with partners at all levels to create and implement comprehensive strategies to tackle this crisis and so many more.”  
-&mdash; California State Senator Josh Becker, District 13  
-  
-“Emily is an open minded, inquisitive, thoughtful and compassionate leader who is extremely qualified to serve the Mountain View Community!”  
-&mdash; Former Mayor Mike Kasperzak
+<!-- Keeps the existing style but moves the data to data -->
+{% for endorsement in site.data.endorsements.quotes %}
+"{{endorsement.quote}}"  
+&mdash; {{endorsement.endorser}}
+{% endfor %}
   
 |      |      |      |
 | ---: | :--- | ---: |
