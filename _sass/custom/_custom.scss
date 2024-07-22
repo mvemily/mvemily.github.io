@@ -35,14 +35,15 @@
 }
 
 .endorsement-card {
-    --image-cell-width: 5rem;
     --card-outer-distance: min(10vw, 3rem);
-    --image-offset: -50%;
+    --image-cell-width: 5rem;
     --image-column: 1 / 1;
+    --image-height: 100%;
+    --image-offset: -50%;
     --image-row: 1 / 1;
     --quote-column: 2 / 2;
     --quote-row: 1 / 1;
-    --image-height: 100%;
+    --translate-mod: 0;
 
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
@@ -55,17 +56,22 @@
     margin-inline: auto;
     max-width: 600px;
     padding: .5rem .5rem;
+    transform: translateX(calc(var(--card-outer-distance) * var(--translate-mod)));
     transition-property: grid-template, left, right, transform;
     transition: all 100ms ease-in-out;
+
+    &.endorsement-card-image {
+        grid-template: var(--image-grid, 1fr / 1fr);
+    }
 
     p {
         margin: 0;
     }
 
     .endorsement-quote-block {
-        padding: 1ch;
         grid-column: var(--quote-column);
         grid-row: var(--quote-row);
+        padding: 1ch;
     }
 
     .endorsement-quote {
@@ -95,13 +101,9 @@
         position: relative;
     }
 
-    &.endorsement-card-image {
-        grid-template: var(--image-grid, 1fr / 1fr);
-    }
-
     &:where(:nth-of-type(2n)) {
         --image-grid: 1fr / var(--image-cell-width, 5rem) 1fr;
-        transform: translateX(var(--card-outer-distance));
+        --translate-mod: 1;
 
         .endorsement-image {
             left: var(--image-offset);
@@ -110,10 +112,9 @@
 
     &:where(:nth-of-type(2n-1)) {
         --image-column: 2 / 2;
-        --quote-column: 1 / 1;
         --image-grid: 1fr / 1fr var(--image-cell-width, 5rem);
-
-        transform: translateX(calc(var(--card-outer-distance) * -1));
+        --quote-column: 1 / 1;
+        --translate-mod: -1;
 
         .endorsement-image {
             right: var(--image-offset);
@@ -128,19 +129,19 @@
     }
 
     @media (width <=800px) {
-        --image-cell-width: 10rem;
-        --image-offset: 0;
         --card-outer-distance: 0;
         --image-block-margin: 8px;
+        --image-cell-width: 10rem;
+        --image-offset: 0;
     }
 
     @media (width < 576px) {
-        --image-height: 50vh;
         --image-column: 1 / 1;
-        --quote-column: 1 / 1;
-        --image-row: 1 / 1;
-        --quote-row: 2 / 2;
         --image-grid: 1fr max-content / 1fr
+        --image-height: 50vh;
+        --image-row: 1 / 1;
+        --quote-column: 1 / 1;
+        --quote-row: 2 / 2;
     }
 }
 
