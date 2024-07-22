@@ -5,14 +5,14 @@ description: Trusted and supported by community members, elected leaders, and or
 image: assets/images/endorsements.jpg
 nav-menu: true
 ---  
+{: .electeds-heading}
 ### Elected Officials
 
-<!-- Keeps the existing style but moves the data to data -->
 {% for endorsement in site.data.endorsements.quotes %}
-"{{endorsement.quote}}"  
-&mdash; {{endorsement.endorser}}
+    {% include endorsement-quote.html endorsement=endorsement %}
 {% endfor %}
-  
+
+{: .electeds-table}
 |      |      |      |
 | ---: | :--- | ---: |
 {%- for boardmember in site.data.endorsements.main %}

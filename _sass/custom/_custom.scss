@@ -1,5 +1,3 @@
-
-
 .donation-buttons {
     display: grid;
     gap: 1rem;
@@ -14,13 +12,6 @@
     td {
         padding-block: .25rem;
     }
-
-    td:nth-of-type(1) {
-        // padding-inline-end: 4px;
-    }
-    td:nth-of-type(2) {
-        // padding-inline-start: 4px;
-    }
 }
 
 .endorsement-cloud {
@@ -28,15 +19,131 @@
     flex-wrap: wrap;
     list-style: none;
     max-width: 30rem;
-    
+
     li {
         white-space: nowrap;
+
         &:nth-of-type(2n) {
             color: map-get($palette, "accent4");
         }
+
         &:nth-of-type(2n+1) {
             color: $highlight-base;
         }
 
     }
+}
+
+.endorsement-card {
+    --image-cell-width: 5rem;
+    --card-outer-distance: min(10vw, 3rem);
+    --image-offset: -50%;
+    --image-column: 1 / 1;
+    --image-row: 1 / 1;
+    --quote-column: 2 / 2;
+    --quote-row: 1 / 1;
+    --image-height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: .25rem .25rem 10px -5px rgba(0, 0, 0, 0.5);
+    color: map-get($palette, "bg-alt");
+    display: grid;
+    font-weight: 600;
+    grid-auto-rows: max-content;
+    margin-block: .5rem;
+    margin-inline: auto;
+    max-width: 600px;
+    padding: .5rem .5rem;
+    transition-property: grid-template, left, right, transform;
+    transition: all 100ms ease-in-out;
+
+    p {
+        margin: 0;
+    }
+
+    .endorsement-quote-block {
+        padding: 1ch;
+        grid-column: var(--quote-column);
+        grid-row: var(--quote-row);
+    }
+
+    .endorsement-quote {
+        line-height: 2em;
+    }
+
+    .endorsement-endorser {
+        font-size: 80%;
+        text-align: right;
+    }
+
+    .endorsement-image-block {
+        display: grid;
+        grid-column: var(--image-column);
+        grid-row: var(--image-row);
+        margin: var(--image-block-margin, 0px);
+        max-height: 100%;
+        place-items: center;
+        position: relative;
+    }
+
+    .endorsement-image {
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.4);
+        max-height: var(--image-height);
+        object-fit: contain;
+        position: relative;
+    }
+
+    &.endorsement-card-image {
+        grid-template: var(--image-grid, 1fr / 1fr);
+    }
+
+    &:where(:nth-of-type(2n)) {
+        --image-grid: 1fr / var(--image-cell-width, 5rem) 1fr;
+        transform: translateX(var(--card-outer-distance));
+
+        .endorsement-image {
+            left: var(--image-offset);
+        }
+    }
+
+    &:where(:nth-of-type(2n-1)) {
+        --image-column: 2 / 2;
+        --quote-column: 1 / 1;
+        --image-grid: 1fr / 1fr var(--image-cell-width, 5rem);
+
+        transform: translateX(calc(var(--card-outer-distance) * -1));
+
+        .endorsement-image {
+            right: var(--image-offset);
+        }
+    }
+
+    @media (width >=800px) {
+        --image-height: calc(100 / 175 * 100%);
+        .endorsement-image {
+            transform: scale(1.75);
+        }
+    }
+
+    @media (width <=800px) {
+        --image-cell-width: 10rem;
+        --image-offset: 0;
+        --card-outer-distance: 0;
+        --image-block-margin: 8px;
+    }
+
+    @media (width < 576px) {
+        --image-height: 50vh;
+        --image-column: 1 / 1;
+        --quote-column: 1 / 1;
+        --image-row: 1 / 1;
+        --quote-row: 2 / 2;
+        --image-grid: 1fr max-content / 1fr
+    }
+}
+
+.electeds-heading {
+    text-align: center;
 }
