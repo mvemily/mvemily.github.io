@@ -54,11 +54,11 @@
     grid-auto-rows: max-content;
     margin-block: .5rem;
     margin-inline: auto;
-    max-width: 600px;
+    max-width: min(600px, calc(100vw - 1rem));
     padding: .5rem .5rem;
     transform: translateX(calc(var(--card-outer-distance) * var(--translate-mod)));
-    transition-property: grid-template, left, right, transform;
     transition: all 100ms ease-in-out;
+    transition-property: grid-template, left, right, transform;
 
     &.endorsement-card-image {
         grid-template: var(--image-grid, 1fr / 1fr);
