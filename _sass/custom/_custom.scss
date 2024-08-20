@@ -145,6 +145,25 @@
     }
 }
 
+.endorsement-orgs {
+    columns: 6 200px;
+    column-gap: 1rem;
+    font: initial;
+    margin-block-end: 2rem;
+
+    .endorsement-organization-card {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        box-shadow: .25rem .25rem 10px -5px rgba(0, 0, 0, 0.5);
+        margin-block-end: 1rem;
+        overflow: clip;
+
+        img {
+            object-fit: contain;
+            vertical-align: middle;
+        }
+    }
+}
 .electeds-heading {
     text-align: center;
 }

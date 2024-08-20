@@ -1,0 +1,23 @@
+{% assign image = include.endorsement.logo %}
+{% assign link = include.endorsement.link %}
+{% assign endorser = include.endorsement.organization %}
+{% assign padding = include.endorsement.padding %}
+
+<div class="endorsement-organization-card" {% if padding %} style="padding: {{ padding }}" {% endif %}>
+    {% if link %}
+    <a href="{{ link }}" target="_blank">
+    {% endif %}
+    {% if image -%}
+
+    <img class="endorsement-org-logo" title="{{ endorser }}" alt="Logo for {{ endorser }}" src="{{ image }}">
+
+    {%- else -%}
+
+    <p class="endorsement-org-name"> {{ endorser }}</p>
+
+    {%- endif %}
+
+    {% if link %}
+    </a>
+    {% endif %}
+</div>
