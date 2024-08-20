@@ -5,12 +5,16 @@ description: Trusted and supported by community members, elected leaders, and or
 image: assets/images/endorsements.jpg
 nav-menu: true
 ---  
-{: .electeds-heading}
-### Elected Officials
 
 {% for endorsement in site.data.endorsements.quotes %}
     {% include endorsement-quote.html endorsement=endorsement %}
 {% endfor %}
+
+### Organizations
+
+{% include endorsement-organization-section.html endorsements=site.data.endorsements.organizations %}
+
+### Elected Officials
 
 {: .electeds-table}
 |      |      |      |
@@ -18,7 +22,8 @@ nav-menu: true
 {%- for boardmember in site.data.endorsements.main %}
 | {{boardmember.name}} | {% if boardmember.title %} **{{boardmember.title | strip }}** {% endif %} | {{boardmember.organization}} |
 {%- endfor %}
-{: .endorsement-table}
+{: .endorsement-table} 
+ 
 
 ### Boardmembers and Commissioners
 

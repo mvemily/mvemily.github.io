@@ -1,0 +1,5 @@
+<div class="endorsement-orgs">
+    {% for endorsement in include.endorsements %}
+        {% include endorsement-organization.html endorsement=endorsement %}
+    {% endfor %}
+</div>
