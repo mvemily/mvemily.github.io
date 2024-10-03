@@ -1,3 +1,23 @@
+- organization: Santa Clara County Democratic Party
+  logo: "/assets/images/endorsers/organizations/sccdp.jpg"
+  padding: ".5rem"
+  link: 'https://sccdp.org/index.php/voter-resources/endorsements/2024-endorsements/your-local-2024-endorsements/2024-democratic-voter-guide-mountain-view/'
+
+- organization: Sierra Club Loma Prieta Chapter
+  logo: "/assets/images/endorsers/organizations/sierraclub.png"
+  padding: ".5rem"
+  link: 'https://www.sierraclub.org/loma-prieta/november-5-2024-sierra-club-california-and-loma-prieta-chapter-general-election'
+
+- organization: Santa Clara County League of Conservation Voters
+  logo: "/assets/images/endorsers/organizations/lcv.png"
+  padding: ".5rem"
+  link: 'https://www.scclcv.org/scclcv-endorsements/'
+
+- organization: 350 Silicon Valley Action
+  logo: "/assets/images/endorsers/organizations/350svaction.png"
+  padding: ".5rem"
+  link: 'https://350bayareaaction.org/electoral/endorsements-2024'
+  
 - organization: Mountain View Mobile Home Alliance
   logo: "/assets/images/endorsers/organizations/mvmha.png"
   padding: ".5rem"
@@ -39,3 +59,19 @@
   logo: "/assets/images/endorsers/organizations/mvhj.jpg"
   link: "https://mvhousingjustice.org/"
 
+- organization: Working Families Party
+  logo: "/assets/images/endorsers/organizations/wfp.png"
+  link: "https://workingfamilies.org/candidates/"
+
+- organization: Democratic Activists for Women Now
+  logo: "/assets/images/endorsers/organizations/dawn.png"
+  link: "https://www.svdawn.org/endorsements2024"
+  
+- organization: Bay Rising Action
+  logo: "/assets/images/endorsers/organizations/bayrising.png"
+  link: "https://bayrisingaction.org/2024-bay-area-voter-guide/"
+  
+- organization: Dean Democratic Club of Silicon Valley
+  logo: "/assets/images/endorsers/organizations/dean.jpg"
+  link: "https://ddcsv.info/endorsements/"
+  

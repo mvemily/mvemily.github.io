@@ -2,7 +2,7 @@
 layout: post
 title: Join the campaign!
 description: Help shape the future of Mountain View by supporting the campaign! 
-image: assets/images/join.jpg
+image: assets/images/group.jpg
 nav-menu: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Learn about Emily
 description: Dedicated and experienced advocate with more than a decade of engagement in our community
-image: assets/images/donate.jpg
+image: assets/images/join.jpg
 nav-menu: true
 ---
 
