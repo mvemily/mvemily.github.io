@@ -145,7 +145,8 @@
     }
 }
 
-.endorsement-orgs {
+.endorsement-orgs,
+.media-photos {
     columns: 6 200px;
     column-gap: 1rem;
     font: initial;
@@ -166,4 +167,8 @@
 }
 .electeds-heading {
     text-align: center;
+}
+
+.media-photos {
+    columns: 3 100px;
 }
