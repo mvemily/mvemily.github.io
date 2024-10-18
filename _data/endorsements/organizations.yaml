@@ -8,16 +8,16 @@
   padding: ".5rem"
   link: 'https://www.sierraclub.org/loma-prieta/november-5-2024-sierra-club-california-and-loma-prieta-chapter-general-election'
 
+- organization: 350 Silicon Valley Action
+  logo: "/assets/images/endorsers/organizations/350svaction.png"
+  padding: ".5rem"
+  link: 'https://350bayareaaction.org/electoral/endorsements-2024'
+
 - organization: Santa Clara County League of Conservation Voters
   logo: "/assets/images/endorsers/organizations/lcv.png"
   padding: ".5rem"
   link: 'https://www.scclcv.org/scclcv-endorsements/'
 
-- organization: 350 Silicon Valley Action
-  logo: "/assets/images/endorsers/organizations/350svaction.png"
-  padding: ".5rem"
-  link: 'https://350bayareaaction.org/electoral/endorsements-2024'
-  
 - organization: Mountain View Mobile Home Alliance
   logo: "/assets/images/endorsers/organizations/mvmha.png"
   padding: ".5rem"
@@ -66,12 +66,23 @@
 - organization: Democratic Activists for Women Now
   logo: "/assets/images/endorsers/organizations/dawn.png"
   link: "https://www.svdawn.org/endorsements2024"
-  
+
 - organization: Bay Rising Action
   logo: "/assets/images/endorsers/organizations/bayrising.png"
   link: "https://bayrisingaction.org/2024-bay-area-voter-guide/"
-  
+
 - organization: Dean Democratic Club of Silicon Valley
   logo: "/assets/images/endorsers/organizations/dean.jpg"
   link: "https://ddcsv.info/endorsements/"
-  
+
+- organization: Bay Area Reporter
+  logo: "/assets/images/endorsers/organizations/bayareareporter.png"
+  link: "https://www.ebar.com/story.php?ch=Opinion&sc=Editorial&id=335947&title=editorial:_endorsements_for_peninsula,_south_bay_races"
+
+- organization: BAYMEC
+  logo: "/assets/images/endorsers/organizations/baymec.jpg"
+  link: "https://www.baymec.org/2024-primary-candidate-endorsements"
+
+- organization: National Women's Political Caucus of Silicon Valley
+  logo: "/assets/images/endorsers/organizations/nwpc.png"
+  link: "https://www.nwpcsiliconvalley.org/endorsements"
