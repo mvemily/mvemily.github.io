@@ -4,6 +4,7 @@ title: Media
 description: Emily in the Media
 # image: assets/images/endorsements.jpg
 nav-menu: true
+show_tile: false
 ---  
 
 <!-- Video -->
