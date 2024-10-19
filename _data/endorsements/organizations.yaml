@@ -81,8 +81,19 @@
 
 - organization: BAYMEC
   logo: "/assets/images/endorsers/organizations/baymec.jpg"
+  padding: ".5rem"
   link: "https://www.baymec.org/2024-primary-candidate-endorsements"
 
 - organization: National Women's Political Caucus of Silicon Valley
   logo: "/assets/images/endorsers/organizations/nwpc.png"
   link: "https://www.nwpcsiliconvalley.org/endorsements"
+
+- organization: Mountain View Chamber of Commerce
+  logo: "/assets/images/endorsers/organizations/chamber.png"
+  padding: ".5rem"
+  link: "https://chambermv.org/elections"
+
+- organization: UA Local 393
+  logo: "/assets/images/endorsers/organizations/local-393.png"
+  padding: ".5rem"
+  link: "https://ualocal393.org/endorsements/"

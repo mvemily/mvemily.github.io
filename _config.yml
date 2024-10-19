@@ -27,12 +27,12 @@ plugins:
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: 
+  GitHub: https://github.com/mvemily/mvemily.github.io
   GitLab:
   Google-Plus:
   Instagram: https://www.instagram.com/engineeremily/
   LinkedIn: https://www.linkedin.com/in/emilyannramos/
-  Twitter: 
+  Twitter: https://x.com/EngineerEmily
   Facebook: https://www.facebook.com/MVEmily
   Slack:
 
