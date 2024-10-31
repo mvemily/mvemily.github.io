@@ -94,6 +94,15 @@
   link: "https://chambermv.org/elections"
 
 - organization: UA Local 393
-  logo: "/assets/images/endorsers/organizations/local-393.png"
+  logo: "/assets/images/endorsers/organizations/393-logo.png"
   padding: ".5rem"
   link: "https://ualocal393.org/endorsements/"
+
+- organization: Silicon Valley Asian Pacific American Democrats
+  logo: "/assets/images/endorsers/organizations/svapadc.jpg"
+  link: "https://www.svapadc.org/"
+
+- organization: Peninsula Young Democrats
+  logo: "/assets/images/endorsers/organizations/pyd.png"
+  padding: ".5rem"
+  link: "https://www.instagram.com/pydems/"

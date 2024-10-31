@@ -1,0 +1,5 @@
+<div class="media-photos row">
+    {% for photo in include.photos %}
+        <img class="col-4" src="{{ photo.image }}" alt="{{ photo.alt }}">
+    {% endfor %}
+</div>
