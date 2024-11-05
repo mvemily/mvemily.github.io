@@ -1,18 +1,24 @@
 
 - alt: "Voter Center Map"
   image: "/assets/images/gotv/gotv5.png"
+  link: "/assets/images/gotv/gotv5.png"
 
 - alt: "Ballot Drop Box Map"
   image: "/assets/images/gotv/gotv6.png"
+  link: "/assets/images/gotv/gotv6.png"
 
 - alt: "Sharable Image 4"
   image: "/assets/images/gotv/gotv4.png"
+  link: "/assets/images/gotv/gotv4.png"
 
 - alt: "Sharable Image 3"
   image: "/assets/images/gotv/gotv3.png"
+  link: "/assets/images/gotv/gotv3.png"
 
 - alt: "Sharable Image 2"
   image: "/assets/images/gotv/gotv2.png"
+  link: "/assets/images/gotv/gotv2.png"
 
 - alt: "Sharable Image 1"
   image: "/assets/images/gotv/gotv1.png"
+  link: "/assets/images/gotv/gotv1.png"
