@@ -8,7 +8,7 @@ show_tile: false
 
 ## Photos to share on Social Media
 
-{% include gotv-gallery.html photos=site.data.gotv.photos %}
+{% include gotv-gallery.html photos=site.data.media.gotvphotos %}
 
 Download and share these images to get your friends to vote!
 
@@ -58,4 +58,6 @@ Mountain View, CA 94043
   
 [Find your closest drop box here.](https://rovservices.sccgov.org/Home/IndexPost?selected=do&electionId=137&distance=5&navtab=vc&asm=simple)  
 
-Other questions about voting? [Find your answers here.](https://vote.santaclaracounty.gov/home)  
+Other questions about voting? [Find your answers here.](https://vote.santaclaracounty.gov/home) 
+
+[You can also take public transit to the polls!](https://www.vta.org/blog/vta-offers-free-rides-vote-election-day)

@@ -8,15 +8,15 @@
   padding: ".5rem"
   link: 'https://www.sierraclub.org/loma-prieta/november-5-2024-sierra-club-california-and-loma-prieta-chapter-general-election'
 
-- organization: 350 Silicon Valley Action
-  logo: "/assets/images/endorsers/organizations/350svaction.png"
-  padding: ".5rem"
-  link: 'https://350bayareaaction.org/electoral/endorsements-2024'
-
 - organization: Santa Clara County League of Conservation Voters
   logo: "/assets/images/endorsers/organizations/lcv.png"
   padding: ".5rem"
   link: 'https://www.scclcv.org/scclcv-endorsements/'
+
+- organization: 350 Silicon Valley Action
+  logo: "/assets/images/endorsers/organizations/350svaction.png"
+  padding: ".5rem"
+  link: 'https://350bayareaaction.org/electoral/endorsements-2024'
 
 - organization: Mountain View Mobile Home Alliance
   logo: "/assets/images/endorsers/organizations/mvmha.png"
@@ -99,10 +99,15 @@
   link: "https://ualocal393.org/endorsements/"
 
 - organization: Silicon Valley Asian Pacific American Democrats
-  logo: "/assets/images/endorsers/organizations/svapadc.jpg"
+  logo: "/assets/images/endorsers/organizations/svapadc.JPG"
   link: "https://www.svapadc.org/"
 
 - organization: Peninsula Young Democrats
   logo: "/assets/images/endorsers/organizations/pyd.png"
   padding: ".5rem"
   link: "https://www.instagram.com/pydems/"
+
+- organization: Pro-Housing Democratic Caucus
+  logo: "/assets/images/endorsers/organizations/prohousing.png"
+  padding: ".5rem"
+  link: "https://www.instagram.com/prohousingdemcaucuscalifornia/"

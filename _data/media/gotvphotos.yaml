@@ -1,9 +1,18 @@
 
-- alt: "Emily Headshot"
-  image: "/assets/images/media/emily_headshot.jpeg"
+- alt: "Voter Center Map"
+  image: "/assets/images/gotv/gotv5.png"
 
-- alt: "Emily Full Image"
-  image: "/assets/images/media/IMG_0694.JPG"
+- alt: "Ballot Drop Box Map"
+  image: "/assets/images/gotv/gotv6.png"
 
-- alt: "Emily Wide Shot"
-  image: "/assets/images/media/IMG_20240527_231124_840.jpeg"
+- alt: "Sharable Image 4"
+  image: "/assets/images/gotv/gotv4.png"
+
+- alt: "Sharable Image 3"
+  image: "/assets/images/gotv/gotv3.png"
+
+- alt: "Sharable Image 2"
+  image: "/assets/images/gotv/gotv2.png"
+
+- alt: "Sharable Image 1"
+  image: "/assets/images/gotv/gotv1.png"
